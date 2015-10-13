@@ -50,3 +50,7 @@ can also provide a Traversable or an array with a 'charlist' key. To set the des
 instantiation, use the ``setCharList()`` method. The ``getCharList()`` return the values set for charlist.
 
 
+Gotchas
+^^^^^^^
+
+Will turn NULL values into "" empty strings.
